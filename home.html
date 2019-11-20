@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bGreen Homepage</title>
+  <link rel="stylesheet" href="STYLE/style1.css">
+  <link rel="shortcut icon" type="image/x-icon" href="IMG/favicon.png">
+  <script src="drop.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home" class="active"></a>
+    <div id="myLinks">
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<img class="bg" src="IMG/bg.jpg" alt="Leaves">
+<img class="text" src="IMG/txt.jpg" alt="Texture">
+<h1>BE GREEN</h1>
+<h2>MINERAL WATER</h2>
+<p>Invite you to drink more water <br> and save the planet at the same time</p>
+<a href="about.html"><h3>Find out more</h3></a>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>

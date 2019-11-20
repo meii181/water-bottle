@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bGreen Homepage</title>
+  <link rel="stylesheet" href="STYLE/contact.css">
+  <link rel="shortcut icon" type="image/x-icon" href="IMG/favicon.png">
+  <script src="drop.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home" class="active"></a>
+    <div id="myLinks">
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<a href="home.html"><img class="logo" src="IMG/logo.png" alt="Logo"></a>
+<h1>Contact Us</h1>
+<p>Address : Stationsvej 20 Copenhagen DK 3600<br>Telephone : 564836572<br>Facebook : Begreen DK<br>Instagram : Begreen_dk</p>
+<form>
+  Name:<br>
+  <input type="text" name="firstname">
+  <br>
+  E-mail:<br>
+  <input type="text" name="lastname">
+  <br>
+  Adress:<br>
+  <input type="text" name="description">
+  <br>
+</form>
+<textarea rows="12" cols="24">
+Description
+</textarea>
+<a href=""><h3>Send</h3></a>
+<img class="bg" src="IMG/bg4.jpg" alt="Leaves">
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
